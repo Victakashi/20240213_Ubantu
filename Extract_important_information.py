@@ -24,18 +24,20 @@ def run_command(command):
 
 def main():
     commands = [
-        'lscpu | grep "Architecture\|Model name\|CPU(s)"',  # Extract important information from lscpu command
-        'lsusb | grep "Bus\|Device\|ID"',  # Extract important information from lsusb command
-        'uname -a | grep "Linux"'  # Extract important information from uname -a command
+        ('lscpu | grep "Architecture\|Model name\|CPU(s)"', "CPU information"),  # Extract important information from lscpu command
+        ('lsusb | grep "Bus\|Device\|ID"', "USB information"),  # Extract important information from lsusb command
+        ('uname -a | grep "Linux"', "Linux version")  # Extract important information from uname -a command
     ]
 
-    for command in commands:
-        print(f"=== {command} ===")
+    for command, label in commands:
+        print("")
+        print(f"=== {label} ===")
         output = run_command(command)
         print(output.strip())  # Print the output of the command
         print("=" * 40)
 
 if __name__ == "__main__":
     main()
+
 
 print(main)
