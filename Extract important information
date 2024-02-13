@@ -7,7 +7,7 @@
 ##初始化目錄（產生 .git 檔案)
 ##git init
 ##連線
-git clone https://github.com/Victakashi/20240213_Ubuntu.git
+##git clone https://github.com/Victakashi/20240213_Ubuntu.git
 
 
 ##'lscpu | grep "Architecture\|Model name\|CPU(s)"',  # Extract important information from lscpu command
