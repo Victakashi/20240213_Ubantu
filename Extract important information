@@ -1,4 +1,13 @@
-
+##Ubuntu 上安裝 git 並抓取程式碼
+##安裝指令
+##sudo apt-get install git
+##建立目錄
+##mkdir repo
+##cd repo
+##初始化目錄（產生 .git 檔案)
+##git init
+##連線
+git clone 
 
 
 ##'lscpu | grep "Architecture\|Model name\|CPU(s)"',  # Extract important information from lscpu command
