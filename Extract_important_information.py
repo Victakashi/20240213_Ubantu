@@ -16,7 +16,7 @@ def main():
         output = run_command(command)
         print(output.strip())  # Print the output of the command
         print("=" * 40)
-
+　　　　 print("")
 if __name__ == "__main__":
     main()
 
