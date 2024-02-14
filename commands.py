@@ -8,7 +8,7 @@
 ##sudo git init
 ##連線
 ##git clone https://github.com/Victakashi/20240213_Ubuntu.git
-
+##sudo rm -rf 20240213_Ubuntu && git clone https://github.com/Victakashi/20240213_Ubuntu.git
 
 
 def get_commands():
