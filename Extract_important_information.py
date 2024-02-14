@@ -1,21 +1,6 @@
-##Ubuntu 上安裝 git 並抓取程式碼
-##安裝指令
-##sudo apt-get install git
-##建立目錄
-##mkdir repo
-##cd repo
-##初始化目錄（產生 .git 檔案)
-##sudo git init
-##連線
-##git clone https://github.com/Victakashi/20240213_Ubuntu.git
-
-
-##'lscpu | grep "Architecture\|Model name\|CPU(s)"',  # Extract important information from lscpu command
-##'lsusb | grep "Bus\|Device\|ID"',  # Extract important information from lsusb command
-##'uname -a | grep "Linux"'  # Extract important information from uname -a command
-##sudo dmidecode -t bios | grep "Vendor\|Version\|Release Date"
 
 import subprocess
+from commands import get_commands
 
 def run_command(command):
     process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
@@ -23,11 +8,7 @@ def run_command(command):
     return output.decode('utf-8')
 
 def main():
-    commands = [
-        ('lscpu | grep "Architecture\|Model name\|CPU(s)"', "CPU information"),  # Extract important information from lscpu command
-        ('lsusb | grep "Bus\|Device\|ID"', "USB information"),  # Extract important information from lsusb command
-        ('uname -a | grep "Linux"', "Linux version")  # Extract important information from uname -a command
-    ]
+    commands = get_commands()
 
     for command, label in commands:
         print("")
@@ -38,6 +19,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 print(main)
