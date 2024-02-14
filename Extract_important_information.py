@@ -15,6 +15,7 @@ def main():
         print(f"=== {label} ===")
         output = run_command(command)
         print(output.strip())  # Print the output of the command
+        print("")
         print("=" * 40)
 　　　　 print("")
 if __name__ == "__main__":
