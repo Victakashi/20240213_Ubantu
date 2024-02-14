@@ -11,7 +11,6 @@
 
 
 
-
 def get_commands():
     commands = [
         ('lscpu | grep "Architecture\|Model name\|CPU(s)"', "CPU information"),  # Extract important information from lscpu command
