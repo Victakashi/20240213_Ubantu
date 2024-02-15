@@ -19,3 +19,11 @@ def get_commands():
         ('sudo dmidecode -t bios | grep "Vendor\|Version\|Release Date"', "BIOS information")  # Extract important information from dmidecode command
     ]
     return commands
+
+def get_remote_host_info():
+    # Remote host information
+    hostname = 'remote_host_ip'
+    username = 'your_username'
+    password = 'your_password'
+    return hostname, username, password
+
