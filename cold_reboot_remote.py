@@ -1,7 +1,14 @@
+
+# main_program.py
+
+import commands
 import pexpect
 
-def reboot_remote(hostname, username, password):
+def reboot_remote():
     try:
+        # Get remote host information
+        hostname, username, password = commands.get_remote_host_info()
+        
         # Construct SSH command
         ssh_command = f'ssh {username}@{hostname}'
         # Start SSH process using spawn
@@ -27,10 +34,4 @@ def reboot_remote(hostname, username, password):
         print("Error:", str(e))
 
 if __name__ == "__main__":
-    # Replace with actual IP address, username, and password of the remote host
-    hostname = 'remote_host_ip'
-    username = 'your_username'
-    password = 'your_password'
-
-    # Call function to perform reboot operation
-    reboot_remote(hostname, username, password)
+    reboot_remote()
