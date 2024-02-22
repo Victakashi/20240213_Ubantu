@@ -2,6 +2,8 @@
 ##VNC Ubuntu #buntucto
 #https://youtu.be/_av-tO3dHAI?feature=shared
 #https://www.gingerdoc.com/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04
+#>sudo apt-get update ,>sudo apt-get upgrade,>sudo apt-get install tightvnc
+#>sudo apt-get install tightvncserver,
 #>vncserver 建立連線,>vncserver -kill 刪除連線
 
 #Ubuntu 22.04 LTS如何安裝Nvidia顯示卡驅動、CUDA、cuDNN、NVIDIA Container Toolkit套件
