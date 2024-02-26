@@ -19,7 +19,7 @@ def get_commands():
         ('lsb_release -a | grep -E "Description ID|Distributor|Release"', "Linux version information"),  # Extract important information from uname -a command
         ('nvcc --version', "NVIDIA CUDA Version")
         ('sudo dmidecode -t bios | grep "Vendor\|Version\|Release Date"', "BIOS information")  # Extract important information from dmidecode command
-    
+         ##要解一下 輸出問題
     ]
     return commands
 
