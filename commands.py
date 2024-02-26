@@ -18,7 +18,7 @@ def get_commands():
         #('uname -a | grep "Linux"', "Linux version information"),  # Extract important information from uname -a command
         ('lsb_release -a | grep -E "Description ID|Distributor|Release"', "Linux version information"),  # Extract important information from uname -a command
         ('sudo dmidecode -t bios | grep "Vendor\|Version\|Release Date"', "BIOS information")  # Extract important information from dmidecode command
-       # ('sudo nvcc --version', "NVIDIA CUDA Version")
+        ('sudo nvcc --version', "NVIDIA CUDA Version")
     
     ]
     return commands
