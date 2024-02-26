@@ -17,7 +17,7 @@ def get_commands():
         ('lsusb | grep "Bus\|Device\|ID"', "USB information"),  # Extract important information from lsusb command
         #('uname -a | grep "Linux"', "Linux version information"),  # Extract important information from uname -a command
         ('lsb_release -a | grep -E "Description ID|Distributor|Release"', "Linux version information"),  # Extract important information from uname -a command
-        ('nvcc --version', "NVIDIA CUDA Version")
+        ('nvcc --version', "NVIDIA CUDA Version information")
         ('sudo dmidecode -t bios | grep "Vendor\|Version\|Release Date"', "BIOS information")  # Extract important information from dmidecode command
          ##要解一下 輸出問題
     ]
