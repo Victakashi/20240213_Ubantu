@@ -9,5 +9,6 @@
 #本機端 <ssh -L localhost:7777:localhost:7777 owner@172.16.106.71>
 #如果是要用jupyter lab的話也可以，前面的notebook改成lab就好了
 #port可以換成其他自己喜歡的就好
+##!jim
 
 
