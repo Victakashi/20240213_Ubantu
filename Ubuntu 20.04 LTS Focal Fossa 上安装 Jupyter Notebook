@@ -1,4 +1,13 @@
 #安装 Jupyter Notebook
 #https://www.xtuos.com/5449.html
+#安装 Jupyter lab
+#https://zenn.dev/kyami/articles/6044f972580702
 #How to連上實驗室主機的Jupyter Notebook Memo
 #https://gist.github.com/Keycatowo/f9d69eb1b2145f21cff7c9d19cc32810
+#
+#Searver 端<jupyter lab --no-browser --port=7777>
+#本機端 <ssh -L localhost:7777:localhost:7777 owner@172.16.106.71>
+#如果是要用jupyter lab的話也可以，前面的notebook改成lab就好了
+#port可以換成其他自己喜歡的就好
+
+
