@@ -1,1 +1,8 @@
+##install stress
+sudo apt-get update
+sudo apt-get install stress
+sudo apt-get -y install pip
+sudo apt-get -y install python-pip
+sudo -H pip install -U jetson-stats
 
+##24/03/04 硬碟滿了,執行重灌 先確定重灌硬碟是否就會釋出空間來
