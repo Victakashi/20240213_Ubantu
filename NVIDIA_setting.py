@@ -18,7 +18,14 @@
 #https://docs.nvidia.com/jetson/archives/jetpack-archived/jetpack-512/install-jetpack/index.html
 #1.3.1. Install JetPack Components on Jetson Linux
 #apt depends nvidia-jetpack | awk '{print $2}' | xargs -I {} sudo apt install -y {}
-#
+
+
+
+#Install JetPack
+#https://youtu.be/LUxyNyCl4ro?feature=shared
+
+#NVIDIA SDK Manager Tutorial: 
+#https://youtu.be/Ucg5Zqm9ZMk?feature=shared
 
 
 
