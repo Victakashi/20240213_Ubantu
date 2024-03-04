@@ -6,3 +6,16 @@ sudo apt-get -y install python-pip
 sudo -H pip install -U jetson-stats
 
 ##24/03/04 硬碟滿了,執行重灌 先確定重灌硬碟是否就會釋出空間來
+#icam-520@ubuntu:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p1   14G   12G  1.7G  88% /
+none            3.5G     0  3.5G   0% /dev
+tmpfs           3.8G   88K  3.8G   1% /dev/shm
+tmpfs           3.8G   31M  3.8G   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+tmpfs           776M  4.0K  776M   1% /run/user/0
+tmpfs           776M  132K  776M   1% /run/user/1000
+##
+
+
