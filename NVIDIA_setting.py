@@ -33,7 +33,8 @@
 ##https://github.com/rbonghi/jetson_stats?tab=readme-ov-file
 
 
-
+###Jetson Nano 初體驗 (二)
+###https://allen108108.github.io/blog/2020/04/06/Jetson%20Nano%20%E5%88%9D%E9%AB%94%E9%A9%97%20%28%E4%BA%8C%29%20%E2%80%93%20Jetson%20Nano/
 
 
 
