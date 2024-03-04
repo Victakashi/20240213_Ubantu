@@ -1,4 +1,3 @@
-
 ##VNC Ubuntu #buntucto
 #https://youtu.be/_av-tO3dHAI?feature=shared
 #https://www.gingerdoc.com/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04
@@ -28,6 +27,10 @@
 #https://youtu.be/Ucg5Zqm9ZMk?feature=shared
 
 
+##03/04  jetson nvidia-smi not found / Jetson NanoのGPUモニタリング
+##https://qiita.com/yamamo-to/items/161f7dcf96704b07a1f9
+##sudo -H pip3 install jetson-stats
+##https://github.com/rbonghi/jetson_stats?tab=readme-ov-file
 
 
 
