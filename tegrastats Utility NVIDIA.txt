@@ -1,0 +1,4 @@
+##tegrastats Utility NVIDIA 溫度監控command.
+##https://docs.nvidia.com/drive/drive_os_5.1.6.1L/nvvib_docs/index.html#page/DRIVE_OS_Linux_SDK_Development_Guide/Utilities/util_tegrastats.html
+##可以讀取一次的寫法
+##< tegrastats --stop && tegrastats --interval 6000  & sleep 10 && tegrastats --stop && tegrastats --stop>
