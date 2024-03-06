@@ -13,8 +13,6 @@ if __name__ == '__main__':
     for i in range(1,5):
         print("****************222***********")
         p = pexpect.spawn(f"ssh -p {port} {username}@{hostname}", encoding='utf-8', codec_errors="ignore", timeout=10)
-        #p = pexpect.spawn(f"ssh {username}@{hostname}", encoding='utf-8', codec_errors="ignore")
-        #p = pexpect.spawn('ssh mic-713@172.16.106.70')
         p.logfile = sys.stdout
         p.setecho(True)
         p.expect("password")
