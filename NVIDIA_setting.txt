@@ -4,6 +4,10 @@ https://cloud.tencent.com/developer/article/2300709
 ##Jetson Benchmarks
 https://developer.nvidia.com/embedded/jetson-benchmarks
 
+##etson Channel Vol. 29 | 「NVIDIA AI / ディープラーニング 開発支援ソフトウェア　実践編 大規模映像AIシステムにおける DeepStream 活用の
+
+https://youtu.be/ncTBHGnFmB8?feature=shared
+
 ##VNC Ubuntu #buntucto
 #https://youtu.be/_av-tO3dHAI?feature=shared
 #https://www.gingerdoc.com/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04
