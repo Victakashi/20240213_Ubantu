@@ -1,3 +1,14 @@
+
+##[Orin Nx] 如何跑满GPU和CPU，观察温度和散热性能？
+https://blog.csdn.net/Adrian503/article/details/131373334
+https://github.com/anseeto/jetson-gpu-burn
+
+
+##Multi-GPU CUDA stress test
+https://github.com/wilicc/gpu-burn
+
+
+
 ###使用Jetson_benchmark进行性能测试 跑模型測試
 https://cloud.tencent.com/developer/article/2300709
 
