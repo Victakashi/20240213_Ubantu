@@ -1,4 +1,4 @@
-###使用Jetson_benchmark进行性能测试
+###使用Jetson_benchmark进行性能测试 跑模型測試
 https://cloud.tencent.com/developer/article/2300709
 
 ##Jetson Benchmarks
