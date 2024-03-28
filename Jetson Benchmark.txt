@@ -30,6 +30,10 @@ sudo sed -i "s/#  AutomaticLogin = user1/AutomaticLogin = $USER/g" /etc/gdm3/cus
 sudo reboot
 ###
 
+####修改權限,sh: 1: cannot create /sys/devices/platform/pwm-fan: Is a directory 不知道能不能??
+sudo chmod 755 /sys/devices/platform/pwm-fan
+
+####
 
 Error
 ###sh: 1: cannot create /sys/devices/platform/pwm-fan: Is a directory
