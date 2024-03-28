@@ -1,0 +1,58 @@
+#Jetson Benchmark
+https://cloud.tencent.com/developer/article/2300709
+https://github.com/NVIDIA-AI-IOT/jetson_benchmarks
+
+>>>
+>>>$ git  clone  https://github.com/NVIDIA-AI-IOT/jetson_benchmarks
+>>># 在 jetson_benchmark 目录下
+>>>
+>>>
+mkdir  models
+sudo sh install_requirements.sh
+python3  utils/download_models.py  --all  --csv_file_path benchmark_csv/orin-nano-benchmarks.csv  --save_dir  models
+
+>>Download Models for Orin NX 16GB
+sudo python3  utils/download_models.py  --all  --csv_file_path benchmark_csv/orin-nx-16gb-benchmarks.csv  --save_dir  models/ --jetson_clocks
+
+>># Run all 在 jetson_benchmark 目录下
+sudo  python3  benchmark.py  --all  --csv_file_path benchmark_csv/orin-nx-16gb-benchmarks.csv --model_dir  models/ --jetson_clocks
+>>使用 ”--model_name” 参数，指定个别模型进行测试，例如下面指令就能单独检测Tiny-YOLO-v3模型的性能：
+>>sudo  python3  benchmark.py  --model_name tiny-yolov3   --csv_file_path benchmark_csv/orin-nx-16gb-benchmarks.csv --model_dir  models/ --jetson_clocks
+
+
+*****設定ubuntu in In headless installation,*******
+不知道能不能解決##We recommend to run benchmarking in headless mode的問題
+https://www.forecr.io/blogs/installation/headless-installation-for-jetson-xavier-nx
+
+###
+sudo sed -i "s/#  AutomaticLoginEnable = true/AutomaticLoginEnable = true/g" /etc/gdm3/custom.conf
+sudo sed -i "s/#  AutomaticLogin = user1/AutomaticLogin = $USER/g" /etc/gdm3/custom.conf
+sudo reboot
+###
+
+
+Error
+###sh: 1: cannot create /sys/devices/platform/pwm-fan: Is a directory
+
+>mic-713@ubuntu:~/jetson_benchmarks$ sudo  python3  benchmark.py  --model_name tiny-yolov3   --csv_file_csv/orin-nx-16gb-benchmarks.csv --model_dir  models/ --jetson_clocks
+Please close all other applications and Press Enter to continue...
+Setting Jetson orin in max performance mode
+Jetson clocks are Set
+------------Executing yolov3-tiny-416------------
+
+---------------------- 0 0 0
+Error in Build, Please check the log in: models/
+Error in Build, Please check the log in: models/
+Error in Build, Please check the log in: models/
+##We recommend to run benchmarking in headless mode
+--------------------------
+
+Model Name: yolov3-tiny-416
+FPS:0.00
+
+--------------------------
+
+sh: 1: cannot create /sys/devices/platform/pwm-fan: Is a directory
+mic-713@ubuntu:~/jetson_benchmarks$ ^C
+mic-713@ubuntu:~/jetson_benchmarks$
+mic-713@ubuntu:~/jetson_benchmarks$
