@@ -1,8 +1,9 @@
 #03/29
 >Jetson Xavier NX Lesson 6: Camera Gear and Setup for Future Lessons
-https://www.youtube.com/watch?v=XIM-5G1Nvac&ab_channel=PaulMcWhorter
-
-
+https://youtu.be/XIM-5G1Nvac?feature=shared
+https://youtu.be/R_d_McJ2stg?feature=shared
+>Lesson
+https://toptechboy.com/jetson-xavier-nx-lesson-5-improving-raspberry-pi-camera-image-quality-in-gstreamer/
 
 #03/29 install jetson-stats in SD card
 sudo -H pip3 install jetson-stats --target /mnt/sdcard/your_installation_path
