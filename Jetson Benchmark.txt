@@ -22,7 +22,7 @@ sudo  python3  benchmark.py  --all  --csv_file_path benchmark_csv/orin-nx-16gb-b
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>BUG 03/28>>>>>
 03/28 明天試看看關閉password & 修改權限
-
+03/29 拔掉HDMI 跟修改權限
 
 *****設定ubuntu in In headless installation,*******
 不知道能不能解決##We recommend to run benchmarking in headless mode的問題
@@ -35,7 +35,7 @@ sudo reboot
 ###
 
 ####修改權限,sh: 1: cannot create /sys/devices/platform/pwm-fan: Is a directory 不知道能不能??
-sudo chmod 755 /sys/devices/platform/pwm-fan
+sudo chmod 777 /sys/devices/platform/pwm-fan
 
 ####
 
