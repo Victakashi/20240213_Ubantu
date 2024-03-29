@@ -1,3 +1,14 @@
+#03/29
+>Jetson Xavier NX Lesson 6: Camera Gear and Setup for Future Lessons
+https://www.youtube.com/watch?v=XIM-5G1Nvac&ab_channel=PaulMcWhorter
+
+
+
+#03/29 install jetson-stats in SD card
+sudo -H pip3 install jetson-stats --target /mnt/sdcard/your_installation_path
+
+
+
 ##install stress
 sudo apt-get update
 sudo apt-get install stress
