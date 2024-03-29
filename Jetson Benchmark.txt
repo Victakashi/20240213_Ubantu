@@ -24,6 +24,19 @@ sudo  python3  benchmark.py  --all  --csv_file_path benchmark_csv/orin-nx-16gb-b
 03/28 明天試看看關閉password & 修改權限
 03/29 拔掉HDMI 跟修改權限
 
+
+03/29
+retry to use absolute path in command line
+"--csv_file_path /home/nvidia/YOUR_PATH/benchmark_csv/nx-benchmarks.csv ..."
+>>>>改成絕對路徑
+
+sudo  python3  benchmark.py  --model_name tiny-yolov3   ---csv_file_path /home/mic-713/jetson_benchmarks/benchmark_csv/orin-nx-16gb-benchmarks.csv --model_dir  models/ --jetson_clocks
+
+>>>>改成絕對路徑  ""/home/mic-713/jetson_benchmarks/benchmark_csv"" 03/29 目前還是不行
+
+sudo  python3  benchmark.py  --all  --csv_file_path /home/mic-713/jetson_benchmarks/benchmark_csv/orin-nx-16gb-benchmarks.csv --model_dir  models/ --jetson_clocks
+
+
 *****設定ubuntu in In headless installation,*******
 不知道能不能解決##We recommend to run benchmarking in headless mode的問題
 https://www.forecr.io/blogs/installation/headless-installation-for-jetson-xavier-nx
