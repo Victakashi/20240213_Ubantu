@@ -4,7 +4,26 @@ A:https://youtu.be/art0-99fFa8?feature=shared
 ##04/01 Build OpenCV with CUDA Support for Jetson
 https://www.youtube.com/watch?v=art0-99fFa8&ab_channel=JetsonHacks
 
+##04/01 NVIDIA JETSON XAVIER NX <WEB cam or a Raspberry Pi camera in OpenCV>
+https://toptechboy.com/1844-2/
 
+##04/01 手把手教學快速建置開發AI的環境(WIN10、Anaconda(Python, Tensorflow, CUDA, cuDNN)、Pycharm)
 
+影片中的相關資料:
+● GPU compute capability https://developer.nvidia.com/cuda-gpus
 
+● Nvidia GPU cuDNN, CUDA與tensorflow版本關係 https://www.tensorflow.org/install/so...
 
+● CUDA Toolkit and Compatible Driver Versions
+
+ https://docs.nvidia.com/cuda/cuda-too...
+
+● GPU 最新driver下載  https://www.nvidia.com.tw/Download/in...
+
+● GPU特定driver版本下載 https://www.geforce.com/drivers/beta-...
+
+● tensorflow測試是否能連結GPU的代碼:
+1.輸入python
+2.輸入from tensorflow.python.client import device_lib
+3.輸入print(device_lib.list_local_devices())
+4.輸入Ctrl + z離開python的測試環境
