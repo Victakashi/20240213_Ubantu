@@ -7,13 +7,18 @@ https://www.youtube.com/watch?v=art0-99fFa8&ab_channel=JetsonHacks
 ##04/01 NVIDIA JETSON XAVIER NX <WEB cam or a Raspberry Pi camera in OpenCV>
 https://toptechboy.com/1844-2/
 
+
+##04/01 Python OpenCV執行Video capture(擷取攝影機串流影像)之程式碼詳細解說
+https://youtu.be/96o4QcuVU4U?feature=shared
+
+
 ##04/01 手把手教學快速建置開發AI的環境(WIN10、Anaconda(Python, Tensorflow, CUDA, cuDNN)、Pycharm)
 
 影片中的相關資料:
 ● GPU compute capability https://developer.nvidia.com/cuda-gpus
-
+  Jetson AGX Orin, Jetson Orin NX, Jetson Orin Nano  >>>GPU	Compute Capability	8.7
 ● Nvidia GPU cuDNN, CUDA與tensorflow版本關係 https://www.tensorflow.org/install/so...
-
+  圖表參考:https://youtu.be/qLjw_EtqmCs?feature=shared&t=647  10:47
 ● CUDA Toolkit and Compatible Driver Versions
 
  https://docs.nvidia.com/cuda/cuda-too...
