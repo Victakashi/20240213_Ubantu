@@ -8,7 +8,7 @@ https://github.com/anseeto/jetson-gpu-burn
 
 >>pushd gpu-burn/jetson-gpu-burn/ && ./gpu_burn 10 & popd
 
-##Multi-GPU CUDA stress test
+##Multi-GPU CUDA stress test>>並沒有說是用在jetson
 https://github.com/wilicc/gpu-burn
 
 
